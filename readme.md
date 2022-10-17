@@ -4,7 +4,7 @@ There are 2 pdf's in this directory:
 
 2. watermark2.pdf is the file that is the watermark to be added.
 
-When pdf_watermarker.py is run, the watermark in #2 should be added as an overlay to #1
+When pdf_watermarker.py is run, the watermark in #2 should be added as an overlay to #1, creating another file in the directory called 'watermark-sample.pdf'
 
 Steps:
 
