@@ -4,8 +4,6 @@ from pathlib import Path
 from typing import Union, Literal, List
 from PyPDF2 import PdfWriter, PdfReader
 
-
-
 def create_watermark(input_pdf: Path, watermark: Path, output: Path) -> None:
     watermark_obj = PdfReader(watermark)
     watermark_page = watermark_obj.getPage(0)
@@ -65,7 +63,6 @@ Watermarks: watermark2.pdf, libreoffice-watermark.pdf, libreoffice-textbox.pdf
 
 """
 
-# TODO: create gifs that ilustrate the work being done
 if __name__ == '__main__':
 
     create_watermark_output = 'watermarked-sample.pdf'
